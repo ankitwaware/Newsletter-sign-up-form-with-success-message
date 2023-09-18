@@ -21,8 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ankitwaware/Newsletter-sign-up-form-with-success-message.git](https://github.com/ankitwaware/Newsletter-sign-up-form-with-success-message.git)
-- Live Site URL: [Add live site URL here](https://clinquant-belekoy-76a020.netlify.app/)
-
+- Live Site URL: [https://clinquant-belekoy-76a020.netlify.app/](https://clinquant-belekoy-76a020.netlify.app/)
 
 ## Where to find everything
 
