@@ -1,0 +1,249 @@
+:root {
+  /* Primary */
+  --tomato: hsl(4, 100%, 67%);
+
+  /* Neutral */
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-Grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-size-paragraph: 16px;
+
+  /* Font */
+  --font-family: "Roboto", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--charcoal-Grey);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-paragraph);
+}
+
+.subscribe-container {
+  width: 60vw;
+  height: 70vh;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 26px;
+}
+
+.content {
+  padding: 1.3rem 2.5rem 0 2.5rem;
+}
+
+.img-box {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.img-sign-up-desktop {
+  display: inline-block;
+  height: 100%;
+}
+
+.heading {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+}
+
+.subheading {
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 16px;
+}
+
+.product-list {
+  margin-bottom: 16px;
+}
+
+.product-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.icon-list {
+  margin-right: 1rem;
+}
+
+.input-email {
+  margin-bottom: 12px;
+}
+
+.input-email label {
+  width: 90%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.input-email input {
+  width: 90%;
+  font-size: var(--font-size-paragraph);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--grey);
+  cursor: pointer;
+  outline: none;
+}
+
+.input-email input::placeholder {
+  font-size: initial;
+  color: var(--grey);
+}
+
+.input-email input[type="email"]:focus {
+  border: 1px solid var(--dark-slate-grey);
+}
+
+.subscribe-button {
+  font-size: inherit;
+  font-weight: var(--font-weight-regular);
+  border: none;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background: linear-gradient(to left, hsl(4, 100%, 67%), hsl(0, 100%, 67%));
+  box-shadow: 5px 5px 15px 5px var(--grey);
+}
+
+.success-container {
+  width: 450px;
+  height: 450px;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+.sucess-img-box {
+  margin-bottom: 16px;
+}
+
+.sucess-heading {
+  font-size: 3.6rem;
+  color: var(--dark-slate-grey);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+.sucess-content {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.sucess-email {
+  color: var(--dark-slate-grey);
+  font-weight: var(--font-weight-bold);
+}
+
+.sucess-btn {
+  font-size: inherit;
+  font-weight: var(--font-weight-regular);
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.sucess-btn:hover {
+  background: linear-gradient(to left, hsl(4, 100%, 67%), hsl(0, 100%, 67%));
+  box-shadow: 5px 5px 15px 5px var(--grey);
+}
+
+.error-msg-span {
+  color: var(--tomato);
+  font-size: 0.8rem;
+}
+
+.hide {
+  display: none;
+}
+
+.email-error {
+  color: var(--tomato);
+  border: 2px solid var(--tomato);
+  background-color: hsl(240, 8%, 97%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: var(--white);
+  }
+
+  .subscribe-container {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  .content {
+    
+    padding: 0;
+    margin: 1rem;
+  }
+
+  .heading {
+    font-size: 2.6rem;
+  }
+
+  .product-list li {
+    align-items: flex-start;
+  }
+
+  .input-email input {
+    width: 100%;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+ 
+  .success-container {
+    width: 100%;
+    border-radius: 0px;
+    padding: 1rem;
+  }
+
+  .sucess-heading {
+    font-size: 2.6rem;
+  }
+
+  .sucess-content {
+    margin-bottom: 2rem;
+  }
+}
