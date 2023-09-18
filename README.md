@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ankitwaware/Results-summary-component)
-- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/jolly-froyo-a47ca8/overview)
+- Solution URL: [https://github.com/ankitwaware/Newsletter-sign-up-form-with-success-message.git](https://github.com/ankitwaware/Newsletter-sign-up-form-with-success-message.git)
+- Live Site URL: [Add live site URL here](https://clinquant-belekoy-76a020.netlify.app/)
 
 
 ## Where to find everything
